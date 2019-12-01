@@ -30,11 +30,15 @@ draft: false
 <a href="#xxx">xxx</a>
 ```
 2. target属性
-* 在新页面打开：<a href="url/相对路径" target="_blank">xxx</a>
-* 在当前页面打开：<a href="url/相对路径" target="_self">xxx</a>
-* 在父页面打开（有两个页面时）：<a href="url/相对路径" target="_parent">xxx</a>
-* 在最顶层页面打开（有多于两个页面）：<a href="url/相对路径" target="_top">xxx</a>
-3. download 属性
+```JavaScript
+在新页面打开：<a href="url/相对路径" target="_blank">xxx</a> <hr>
+在当前页面打开：<a href="url/相对路径" target="_self">xxx</a><hr>
+在父页面打开（有两个页面时）：<a href="url/相对路径" target="_parent">xxx</a><hr>
+在最顶层页面打开（有多于两个页面）：<a href="url/相对路径" target="_top">xxx</a>
+```
+
+
+1. download 属性
 * 下载页面, 不是所有浏览器都支持
   
 ## iframe标签
