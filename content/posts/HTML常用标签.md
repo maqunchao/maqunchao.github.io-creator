@@ -105,8 +105,7 @@ iframe标签用于在一个页面当中嵌套页面,但目前已经很少用了�
     </table>
 </body>
 ```
-![](../../image/
-table.png)
+![](https://raw.githubusercontent.com/maqunchao/maqunchao.github.io-creator/master/image/table.png)
 
 ## img标签
 * 作用:发出get请求, 展示一张图片
