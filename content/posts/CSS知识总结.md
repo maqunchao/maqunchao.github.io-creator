@@ -1,6 +1,6 @@
 ---
 title: "CSS知识总结"
-date: 2019-11-18T00:15:34+08:00
+date: 2019-12-14T00:15:34+08:00
 draft: false
 ---
 
@@ -52,7 +52,7 @@ animation：时长|过渡方式|延迟|次数|方向|填充模式|是否暂停|�
 ### CSS盒模型
 
 * centent-box和border-box
-内容盒模型的width = content
+内容盒模型的width = contentmaqunchao.github.io-creator
 边框盒模型的width = content + padding*2 + border*2
 也就是说，一个div，他的内容宽content为100px，padding为10px，border为1px，margin为10px，那么在内容盒模型的解析下，他的width = 100px，也就是content的宽度
 而在边框盒模型的解析下，他的width = 100px + 1px*2 + 10px*2 = 122px.
