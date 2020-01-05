@@ -72,7 +72,7 @@ for(var i = 0; i<6; i++){
 }
 ```
 2. 使用setTimeout的第3个参数
-* 第三个参数就是给setTimeout第一个函数的参数, 由于每次传入的参数是从for循环里面取到的值，所以会依次输出0~5。
+* 第三个参数就是给setTimeout第一个函数的参数, 由于每次传入的参数是从for循环里面取到的值(参数i实时传给定时器)，所以会依次输出0~5。
 ```JavaScript
 for(var i=0;i<6;i++){
     setTimeout(function(j){
