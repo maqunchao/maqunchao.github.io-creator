@@ -1,4 +1,5 @@
-baseURL = "http://maqunchao.xyz/"
+baseURL = "https://maqunchao.github.io/"
+
 languageCode = "zh-Hans"
 title = "Mark的博客"
 theme = "ananke"
